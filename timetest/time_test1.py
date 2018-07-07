@@ -15,3 +15,7 @@ print(time.mktime(time.localtime(550055222))) #将结构化时间转化为时间
 print(time.asctime())
 print(time.ctime())
 print(time.ctime(time.time()))
+
+x=time.localtime()
+print(x)
+print(time.strptime('2012-12-12 23:09:12',"%Y-%m-%d %H:%M:%S"))
