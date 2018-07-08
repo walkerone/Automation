@@ -7,3 +7,5 @@ print(datetime.datetime.now()+datetime.timedelta(3))  #获取几天前的时间�
 # 必须和datatime函数一起使用
 print(datetime.datetime.now()+datetime.timedelta(hours=5,minutes=1,seconds=8))
 
+sss
+
