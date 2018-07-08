@@ -12,4 +12,4 @@ def progress(percent,width=50):
     show_str=('[%%-%ds]' %width) %(int(width*percent)*'#')
     print('\r%s %d%%' %(show_str,int(100*percent)),file=sys.stdout,flush=True,end='')
 
-progress(50)
+progress(0.5)
