@@ -1,0 +1,9 @@
+product_list = [
+    ('iphone', 5800),
+    ('Mac Pro', 9800),
+    ('Bike', 800),
+    ('Watch', 10600),
+    ('Coffice', 31),
+    ('Alex Python', 81)
+
+]

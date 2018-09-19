@@ -1,0 +1,30 @@
+  @staticmethod  静态方法名义上归类管理，实际上在静态方法里访问不了类或实例中的任何属性
+   @classmethod  类方法只能调用类变量，不能访问实例变量
+   @property   把一个方法变成一个静态属性
+
+
+__doc__ 类的描述信息
+__call__   对于call方法的执行时由对象后加括号触发的，即对象()
+
+类名__dict__       打印类中的所有属性，不包括实例属性
+实例名  __dict__   打印类中的所有属性，不包括类属性
+__str__    返回对象的名字
+
+__new__是用来创建实例的  执行在__init之前
+
+反射      hasattr(obj,name_str)判断一个对象里是否有对应的字符串的方法映射
+          getattr(obj.name_str)根据字符串去获取obj里的对应方法的内存地址+
+
+异常
+    try:
+        code
+    except (err1,err2,) as e
+        print e
+    else:
+        .aaa    一切正常的执行这个
+    finlly:
+          不管有没有错都执行
+
+    except Exception 抓住所有错误  这个可以用在最后
+
+ 自定义异常
