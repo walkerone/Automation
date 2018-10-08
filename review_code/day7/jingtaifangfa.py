@@ -22,3 +22,5 @@ dog1.eat
 dog1.eat="面包"
 dog1.eat
 del  dog1.eat
+
+
